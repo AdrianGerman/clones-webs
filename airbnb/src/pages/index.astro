@@ -1,4 +1,5 @@
 ---
+import Header from "../components/Header.astro"
 import Layout from "../layouts/Layout.astro"
 ---
 
@@ -7,6 +8,7 @@ import Layout from "../layouts/Layout.astro"
   description="Encuentra un alojamiento en Airbnb para cada tipo de viaje → +7 millones de alojamientos vacacionales → 2 millones de alojamientos favoritos entra húespedes → Más de 220 países y regiones en todo el mundo"
 >
   <main>
+    <Header />
     <h1>Airbnb clone</h1>
   </main>
 </Layout>
@@ -15,8 +17,7 @@ import Layout from "../layouts/Layout.astro"
   main {
     margin: auto;
     padding: 1rem;
-    width: 800px;
-    max-width: calc(100% - 2rem);
+    max-width: 90%;
     color: white;
     font-size: 20px;
     line-height: 1.6;
